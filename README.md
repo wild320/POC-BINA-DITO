@@ -510,4 +510,4 @@ POC-BINA-DITO/
 
 ## Licencia
 
-ISC © Abako ERP
+ISC © Dito SAS
