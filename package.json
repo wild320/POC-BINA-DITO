@@ -1,0 +1,30 @@
+{
+  "name": "poc-bina-dito",
+  "version": "1.0.0",
+  "description": "PoC de integración WhatsApp Business (Meta) con Bina IA - Abako ERP",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "tunnel": "ngrok http 3000",
+    "test:webhook": "bash tests/simulate-webhook.sh",
+    "test:health": "bash tests/test-health.sh"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "meta",
+    "bina",
+    "chatbot",
+    "integration"
+  ],
+  "author": "Abako ERP",
+  "license": "ISC"
+}
